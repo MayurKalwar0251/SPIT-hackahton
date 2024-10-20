@@ -24,7 +24,6 @@ const routes = [
 const profileRoutes = [
   { path: "/login", name: "Login", icon: <BiLogIn /> },
   { path: "/signup", name: "Sign Up", icon: <BiRegistered /> },
-  { path: "/profile", name: "Profile", icon: <BiUser /> },
 ];
 
 const SideBar = ({ children }) => {

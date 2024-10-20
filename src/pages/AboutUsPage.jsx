@@ -1,4 +1,8 @@
 import { useState, useEffect, useRef } from "react";
+import Avatar1 from "../assets/avatar1.png";
+import Avatar2 from "../assets/avatar2.png";
+import Avatar3 from "../assets/avatar3.png";
+import Avatar4 from "../assets/avatar4.png";
 import {
   motion,
   AnimatePresence,
@@ -90,24 +94,24 @@ function Aboutus() {
           () =>
             resolve([
               {
-                name: "Alex Johnson",
+                name: "MANAV PATEL",
                 role: "CEO & Founder",
-                image: "/placeholder.svg?height=100&width=100",
+                image: Avatar1,
               },
               {
-                name: "Samantha Lee",
+                name: "MAYUR KALWAR",
                 role: "Chief Technology Officer",
-                image: "/placeholder.svg?height=100&width=100",
+                image: Avatar2,
               },
               {
-                name: "Marcus Chen",
+                name: "KUSH JAIN",
                 role: "Lead AI Engineer",
-                image: "/placeholder.svg?height=100&width=100",
+                image: Avatar3,
               },
               {
-                name: "Olivia Rodriguez",
+                name: "HARSHEEL SHARMA",
                 role: "UX Design Lead",
-                image: "/placeholder.svg?height=100&width=100",
+                image: Avatar4,
               },
             ]),
           1000

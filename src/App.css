@@ -74,3 +74,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.video {
+  width: 100%; /* Ensure the video takes full width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent inline spacing issues */
+}
