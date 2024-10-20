@@ -14,7 +14,7 @@ function RoomCards() {
       isOn: false,
     },
     {
-      title: "Climate",
+      title: "Thermostat",
       icon: <Thermometer />,
       duration: "3h 20min",
       color: "bg-orange-500",
@@ -28,7 +28,7 @@ function RoomCards() {
       isOn: false,
     },
     {
-      title: "Sound",
+      title: "Music System",
       icon: <Volume2 />,
       duration: "2h 14min",
       color: "bg-blue-500",

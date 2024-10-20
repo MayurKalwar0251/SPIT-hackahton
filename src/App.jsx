@@ -26,6 +26,14 @@ function App() {
             }
           />
           <Route
+            path="/chatbot"
+            element={
+              <Dashboard>
+                <ChatBot />
+              </Dashboard>
+            }
+          />
+          <Route
             path="/about-us"
             element={
               <Dashboard>

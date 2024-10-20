@@ -2,6 +2,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { FaBars, FaHome, FaHospitalSymbol, FaUser } from "react-icons/fa";
 import {
   BiAnalyse,
+  BiBot,
   BiLogIn,
   BiRegistered,
   BiSolidContact,
@@ -19,6 +20,7 @@ const routes = [
   { path: "/about-us", name: "About Us", icon: <FaUser /> },
   { path: "/contact-us", name: "Contact Us", icon: <BiSolidContact /> },
   { path: "/analytics", name: "Analytics", icon: <BiAnalyse /> },
+  { path: "/chatbot", name: "Chatbot", icon: <BiBot /> },
 ];
 
 const profileRoutes = [

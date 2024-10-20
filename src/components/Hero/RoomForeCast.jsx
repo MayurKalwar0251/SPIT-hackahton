@@ -8,7 +8,7 @@ export function WeatherForecast() {
 
   return (
     <div className="mt-4">
-      <h3 className="text-lg font-semibold mb-2 text-white">Weekly forecast</h3>
+      <h3 className="text-lg font-semibold mb-2 text-white">Daily Analysis</h3>
       <div className="flex justify-between overflow-x-auto">
         {forecast.map((day) => (
           <div key={day.date} className="text-center flex-shrink-0 px-2">
