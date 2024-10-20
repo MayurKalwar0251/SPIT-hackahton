@@ -34,15 +34,15 @@ export default function SmartNexusTransitionLoader() {
           clearInterval(timer);
           return 100;
         }
-        return prevProgress + 0.5; // Slower progress
+        return prevProgress + 2.5; // Slower progress (fills in about 4s)
       });
-    }, 50);
+    }, 50); // Updates every 50ms, slower increments
 
     const colorTimer = setInterval(() => {
       setCurrentColorIndex(
         (prevIndex) => (prevIndex + 1) % backgroundColors.length
       );
-    }, 3000); // Change background color every 3 seconds
+    }, 800); // Change background color every 0.8s
 
     return () => {
       clearInterval(timer);
@@ -55,7 +55,7 @@ export default function SmartNexusTransitionLoader() {
     if (progress === 100) {
       setTimeout(() => {
         navigate("/home"); // Redirect after a slight delay (optional)
-      }, 1000); // 1 second delay before redirecting
+      }, 300); // 0.3 second delay before redirecting
     }
   }, [progress, navigate]);
 
